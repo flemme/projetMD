@@ -21,9 +21,6 @@ public class Stage {
 
 	private String groundImgPath;
 	private String backgroundImgPath;
-	
-	private Point messagePos;
-	private Point scorePos;
 
 	private double gravity;
 	private int score; 
@@ -78,36 +75,6 @@ public class Stage {
 	 */
 	public void setSling(Sling sling) {
 		this.sling = sling;
-	}
-
-	/**
-	 * @return the messagePos
-	 */
-	public Point getMessagePos() {
-		return messagePos;
-	}
-
-	/**
-	 * @param messagePos
-	 *            the messagePos to set
-	 */
-	public void setMessagePos(Point messagePos) {
-		this.messagePos = messagePos;
-	}
-
-	/**
-	 * @return the scorePos
-	 */
-	public Point getScorePos() {
-		return scorePos;
-	}
-
-	/**
-	 * @param scorePos
-	 *            the scorePos to set
-	 */
-	public void setScorePos(Point scorePos) {
-		this.scorePos = scorePos;
 	}
 
 	public String getMessage() {
